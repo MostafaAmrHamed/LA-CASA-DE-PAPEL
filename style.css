@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body, html{
+    background: url(BG.png);
+    height:100%;
+    width:100%;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    margin-left: 40px;
+}
+/* Start of Navabr */
+nav{
+    top: 0;
+    position: fixed;
+    background-color: rgba(255, 0, 0, 0.61);
+    height: 80px;
+    width: 100%;
+}
+/*
+nav .logo{
+    display: inline-block;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-family: 'Lalezar', cursive;
+    color: black;
+}
+
+nav .logo span{
+    background-color: white;
+    color: red;
+    padding: 2px 7px 0 7px;
+    font-size: 25px;
+}*/
+nav img{
+    height: 80px;
+    padding-left: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 40px;
+}
+nav a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+nav a:hover{
+    color: rgb(146, 143, 143);
+}
+/* End of Navbar */
+
+/*Start of  content */
+.Content{
+    margin-bottom: 1000px;
+    text-align: center;
+    color: white;
+}
+.last-content{
+    text-align: center;
+    color: white;
+}
+.h1{
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#home,
+#trailer,
+#characters{
+    height: 150px;
+}
+
+.Content .home{
+    color: white;
+    line-height: 40px;
+}
+
+/*Characters*/
+.characters{
+    text-align: left;
+    margin-top: 130px;
+    color: white;
+}
+
+.character{margin-bottom: 750px;}
+.character p{
+    float: left;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-right: 30px;
+}
+.character img{
+    float: right;
+    padding-right: 50px;
+    width: 500px;
+    height: 281px;
+}
+/*End of Characters*/
+.last{
+    margin-bottom: 500px !important;
+}
+/*End of  content */
+
